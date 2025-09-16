@@ -84,8 +84,6 @@ Keluar
 5. Hasil (output) ditampilkan kembali di console.  
 6. Program terus berjalan (looping `while`) sampai user memilih **Keluar**.  
 
----
 
-## 📖 Contoh Jalannya Program
 
 
