@@ -4,8 +4,8 @@
 Aplikasi sederhana ini dibuat untuk mengelola **penyewaan DVD/Film** secara digital.  
 Konsepnya santai aja: data DVD bisa kita tambahin, liat, update, hapus, sampai nyewa dan balikin lagi.  
 
-Project ini dibuat memakai **Java** dengan konsep **OOP** dan pendekatan **MVC sederhana** agar kode lebih rapi dan gampang dipahami.  
-Walaupun jalan di console, tapi alurnya udah mirip sistem rental DVD.  
+Project ini dibuat dengan Java menggunakan konsep OOP dan pola MVC sederhana agar strukturnya lebih teratur.
+Meski masih berbasis console, alurnya sudah menggambarkan proses penyewaan DVD seperti sistem rental pada umumnya.
 
 Fitur utama mencakup:  
 - CRUD (Create, Read, Update, Delete) data DVD  
