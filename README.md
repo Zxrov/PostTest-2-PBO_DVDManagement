@@ -6,8 +6,8 @@ Program ini dibuat menggunakan bahasa **Java** dengan konsep **OOP** dan **MVC s
 
 Fitur utama mencakup:  
 - CRUD (Create, Read, Update, Delete) data DVD  
-- Penyewaan DVD (ubah status jadi *Dipinjam*)  
-- Pengembalian DVD (ubah status jadi *Tersedia*)  
+- Penyewaan DVD  
+- Pengembalian DVD 
 
 ---
 
@@ -19,21 +19,6 @@ Fitur utama mencakup:
 - Sewa DVD  
 - Kembalikan DVD  
 - Keluar dari aplikasi  
-
----
-
-## 🗂 Struktur Project  
-
-DVDPenyewaan
-└── Source Packages
-└── dvdpenyewaan
-├── main
-│ └── MainApp.java // Entry point & menu user
-├── model
-│ └── DVD.java // Struktur data DVD
-└── service
-└── DVDService.java // Logika CRUD & penyewaan
-
 
 ---
 
