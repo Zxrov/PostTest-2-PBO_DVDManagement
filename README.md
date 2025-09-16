@@ -1,6 +1,6 @@
 # Sistem Manajemen Penyewaan DVD  
 
-## 📌 Deskripsi  
+## 📌 Deskripsi Program
 Aplikasi sederhana ini dibuat untuk mengelola **penyewaan DVD/Film** secara digital.  
 Konsepnya santai aja: data DVD bisa kita tambahin, liat, update, hapus, sampai nyewa dan balikin lagi.  
 
