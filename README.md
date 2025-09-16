@@ -55,5 +55,37 @@ Keluar
 - **Constructor & Access Modifier** pada class `DVD`  
 - **Pemisahan package**: `model`, `service`, `main`  
 - **Percabangan & perulangan** untuk menu interaktif  
-- **MVC sederhana** untuk memisahkan logika, data, dan tampilan  
+- **MVC sederhana** untuk memisahkan logika, data, dan tampilan
+
+
+### 📌 Penjelasan MVC
+- **Model (`model/DVD.java`)**  
+  Berisi struktur data DVD: `id`, `judul`, `genre`, dan `status`.  
+  - Menerapkan **constructor** untuk inisialisasi data.  
+  - Menggunakan **access modifier (private)** dengan getter dan setter.  
+
+- **View & Controller (`main/MainApp.java`)**  
+  - View: Menampilkan menu dan menerima input dari user (Scanner).  
+  - Controller: Menghubungkan input user ke logika program (memanggil method di `DVDService`).  
+
+- **Service (`service/DVDService.java`)**  
+  Berisi logika utama program:  
+  - Menyimpan data DVD di dalam `ArrayList`.  
+  - Operasi CRUD (tambah, lihat, update, hapus).  
+  - Operasi khusus penyewaan dan pengembalian DVD.  
+
+---
+
+## 🔄 Alur Program  
+1. Program dimulai dari `MainApp` → menampilkan menu utama.  
+2. User memilih menu menggunakan input angka (percabangan `switch-case`).  
+3. `MainApp` memanggil method di `DVDService` sesuai pilihan.  
+4. `DVDService` memproses logika (CRUD, sewa, kembalikan, hapus).  
+5. Hasil (output) ditampilkan kembali di console.  
+6. Program terus berjalan (looping `while`) sampai user memilih **Keluar**.  
+
+---
+
+## 📖 Contoh Jalannya Program
+
 
