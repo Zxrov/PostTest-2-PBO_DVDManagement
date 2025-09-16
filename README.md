@@ -1,4 +1,4 @@
-📖 #Sistem Manajemen Penyewaan DVD
+# 📖 Sistem Manajemen Penyewaan DVD
 Deskripsi
 
 Program ini adalah aplikasi berbasis console sederhana untuk manajemen penyewaan DVD/Film.
