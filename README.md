@@ -1,79 +1,74 @@
-# 📖 Sistem Manajemen Penyewaan DVD
-Deskripsi
+# Sistem Manajemen Penyewaan DVD  
 
-Program ini adalah aplikasi berbasis console sederhana untuk manajemen penyewaan DVD/Film.
-Fitur utama mencakup operasi CRUD (Create, Read, Update, Delete), serta fungsi tambahan untuk menyewa dan mengembalikan DVD.
+## 📌 Deskripsi  
+Aplikasi berbasis console untuk **manajemen penyewaan DVD/Film**.  
+Program ini dibuat menggunakan bahasa **Java** dengan konsep **OOP** dan **MVC sederhana**.  
 
-Dibuat menggunakan Java (NetBeans) dengan penerapan:
+Fitur utama mencakup:  
+- CRUD (Create, Read, Update, Delete) data DVD  
+- Penyewaan DVD (ubah status jadi *Dipinjam*)  
+- Pengembalian DVD (ubah status jadi *Tersedia*)  
 
-OOP (Object Oriented Programming)
+---
 
-ArrayList sebagai penyimpanan data
+## ✨ Fitur Program  
+- Tambah DVD baru  
+- Lihat daftar DVD  
+- Update data DVD  
+- Hapus DVD  
+- Sewa DVD  
+- Kembalikan DVD  
+- Keluar dari aplikasi  
 
-Packages untuk memisahkan fungsi (MVC sederhana)
+---
 
-Access Modifier & Constructor
+## 🗂 Struktur Project  
 
-Validasi Input pada menu
+DVDPenyewaan
+└── Source Packages
+└── dvdpenyewaan
+├── main
+│ └── MainApp.java // Entry point & menu user
+├── model
+│ └── DVD.java // Struktur data DVD
+└── service
+└── DVDService.java // Logika CRUD & penyewaan
 
-Fitur Program Penyewaan DVD
 
-Tambah DVD baru
+---
 
-Lihat daftar DVD
+## 🚀 Cara Menjalankan  
+1. Clone repository ini.  
+2. Buka di **NetBeans** atau IDE Java lainnya.  
+3. Pastikan `MainApp` diset sebagai **Main Class**.  
+4. Jalankan program dengan **Run Project (F6)**.  
 
-Update data DVD
+---
+
+## 📖 Contoh Jalannya Program
+=== Sistem Manajemen Penyewaan DVD ===
+
+Tambah DVD
+
+Lihat Daftar DVD
+
+Update DVD
 
 Hapus DVD
 
-Sewa DVD (ubah status menjadi Dipinjam)
+Sewa DVD
 
-Kembalikan DVD (ubah status menjadi Tersedia)
+Kembalikan DVD
 
-Keluar dari program
-
-🗂️ Struktur Packages
-DVDPenyewaan
- └── Source Packages
-      └── dvdpenyewaan
-           ├── main
-           │    └── MainApp.java       (Entry point, menu user)
-           ├── model
-           │    └── DVD.java           (Struktur data DVD)
-           └── service
-                └── DVDService.java    (CRUD & penyewaan)
+Keluar
 
 
-Contoh Running Program
-=== Sistem Manajemen Penyewaan DVD ===
-1. Tambah DVD
-2. Lihat Daftar DVD
-3. Update DVD
-4. Hapus DVD
-5. Sewa DVD
-6. Kembalikan DVD
-7. Keluar
-Pilih menu: 1
-Masukkan ID DVD: D01
-Masukkan Judul DVD: Spiderman
-Masukkan Genre DVD: Action
-DVD berhasil ditambahkan!
+---
 
-Pilih menu: 2
-Daftar DVD:
-ID: D01, Judul: Spiderman, Genre: Action, Status: Tersedia
+## 🏗 Konsep yang Diterapkan  
+- **ArrayList** sebagai tempat penyimpanan data DVD  
+- **Constructor & Access Modifier** pada class `DVD`  
+- **Pemisahan package**: `model`, `service`, `main`  
+- **Percabangan & perulangan** untuk menu interaktif  
+- **MVC sederhana** untuk memisahkan logika, data, dan tampilan  
 
-Pilih menu: 5
-Masukkan ID DVD yang ingin disewa: D01
-DVD berhasil disewa!
-
-Pilih menu: 2
-Daftar DVD:
-ID: D01, Judul: Spiderman, Genre: Action, Status: Dipinjam
-
-Pilih menu: 6
-Masukkan ID DVD yang ingin dikembalikan: D01
-DVD berhasil dikembalikan!
-
-Pilih menu: 7
-Keluar dari program...
